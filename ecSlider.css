@@ -1,3 +1,13 @@
-div {
+.slider {
+	height: 160px;
+}
+.item {
 	border: solid 1px red;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    transform: translate3d(0,0,0);
 }

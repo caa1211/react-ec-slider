@@ -1,7 +1,18 @@
 var EcSlider = React.createClass({
 	
 	  render: function () {
-	  	return (<div style={{border: 'solid 1px red'}}>aaaaaa</div>);
+	  	return (
+
+<div className="slider">
+<ul className="items" style={{transform: 'translate3d(-424px, 0px, 0px)'}}>
+	<li className="item">
+
+	</li>
+    <li className="item">
+    </li>
+</ul>
+</div>
+	  		);
 	  }
 
 });
